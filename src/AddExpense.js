@@ -54,9 +54,9 @@ export default function AddExpense() {
     <button className="dropbtn">Category</button>
    
     <div className="dropdown-content">
-            <a href="#" onClick={(e) => handleCategoryChange(e, 'Stationary')}>Stationary</a>
-            <a href="#" onClick={(e) => handleCategoryChange(e, 'Food')}>Food</a>
-            <a href="#" onClick={(e) => handleCategoryChange(e, 'Trip')}>Trip</a>
+            <a href="/" onClick={(e) => handleCategoryChange(e, 'Stationary')}>Stationary</a>
+            <a href="/" onClick={(e) => handleCategoryChange(e, 'Food')}>Food</a>
+            <a href="/" onClick={(e) => handleCategoryChange(e, 'Trip')}>Trip</a>
             </div>
   </div> 
   <label htmlFor="description">Description:</label>
